@@ -1,0 +1,160 @@
+/*
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
+*/
+
+.css-adaptive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body{
+  font-family: 'Playfair Display', sans-serif;
+}
+
+header{
+  height: 160px;
+}
+
+header div img{
+  display: inline-block;
+  margin-top: 70px;
+}
+
+header nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  color: #626262;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 70px 50px;
+  list-style: none;
+}
+
+header nav ul li a{
+  color: #626262;
+  list-style: none;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  text-decoration: underline;
+}
+
+section.content-post{
+  margin-top: 90px;
+  padding: 0 80px !important;
+}
+
+section.content-post div.category a, section.content-post a.comment, section.next-post a{
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section.content-post div.category a:hover, section.content-post a.comment:hover{
+  text-decoration: underline;
+}
+
+section.content-post h2, section.next-post h2{
+  color: #626262;
+  font-size: 30px;
+}
+
+section.content-post div.content, section.next-post p{
+  font-size: 14px;
+  color: #626262;
+}
+
+section.next-post{
+  margin-top: 90px;
+  padding: 0 80px !important;
+}
+
+section.next-post a{
+  display: inline-block;
+  margin-top: 30px;
+}
+
+section.next-post div.post{
+  margin-bottom: 130px;
+}
+
+section.mail{
+  height: 280px;
+  background-color: #F0F0F0;
+  padding-top: 70px;
+}
+
+section.mail div.sign{
+  color: #2F2F2F;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+section.mail form.mail{
+  width: 400px;
+  border-bottom: 1px solid #000000;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+section.mail form.mail input{
+  border: none;
+  color: #626262;
+  font-size: 14px;
+  background: inherit;
+}
+
+section.mail form.mail button{
+  float: right;
+  border: none;
+  background: none;
+}
+
+section.mail form.mail button:hover{
+  cursor: pointer;
+}
+
+div.more a{
+  display: inline-block;
+  font-size: 20px;
+  color: #626262;
+  text-align: center center;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-left: 40%;
+}
+
+footer{
+  background-color: #F0F0F0;
+  height: 98px;
+  margin-top: 90px;
+}
+
+footer div.left{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+footer div.right{
+
+}
+
+footer div.container div{
+  padding: 0px 40px;
+}
